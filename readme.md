@@ -3,8 +3,9 @@ problem with sass imports in webpack 4
 
 ## how to test :
 ```console
-git clone .... 
-cd ... 
+git clone https://github.com/fvigotti/webpack-problem-scss  
+
+cd webpack-problem-scss  
 npm install
 npm run build
 
@@ -12,7 +13,7 @@ npm run build
 sass + css included in ./dist
 
 # result : 
-no styles included in ./dist 
+only css ( not the sass compiled source code)  included in ./dist 
 
 ```
 
