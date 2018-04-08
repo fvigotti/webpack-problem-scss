@@ -1,0 +1,17 @@
+@import "layout/styleb.scss";
+
+//@import "~bootstrap/dist/css/bootstrap";
+
+//@import "layout/styleb";
+
+
+$bg-color: yellow;
+
+
+.home {
+  background: $bg-color;
+  padding: 20px 20px 0px 20px;
+  hr {
+    width: 15em;
+  }
+}
