@@ -36,15 +36,15 @@ module.exports = {
       // },
 
       { // this correctly extract the css
-        test: /\.css$/, use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
+        test: /\.s?css$/, use: [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader','sass-loader']
       },
 
-      { // this doesn't extract the scss
-        test: /\.scss$/, use: [MiniCssExtractPlugin.loader,
-          'css-loader',  //'postcss-loader',
-          'sass-loader' ,
-        ]
-      },
+      // { // this doesn't extract the scss
+      //   test: /\.scss$/, use: [MiniCssExtractPlugin.loader,
+      //     'css-loader',  //'postcss-loader',
+      //     'sass-loader' ,
+      //   ]
+      // },
 
 
     ]
